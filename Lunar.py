@@ -1,5 +1,6 @@
 #encoding:utf-8
-# by chaseey
+# original by chaseey
+# modified by Andes Wen
 import lunardate
 import datetime
 import math
