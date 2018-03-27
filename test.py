@@ -1,6 +1,7 @@
 import lunar
 
-JIEQI = lunar.JIE_QI
-jieqi = lunar.getJieqiList_byMonth(2018,5,addNum=True)
-# 小寒和大寒总在一月份
-print(jieqi)
+JIEQI = lunar.JIE_QI_ADJUST_CALENDAR
+jieqi = lunar.getJieqiList_byYear(2018,addNum=True)
+# 输出2018年列表
+for x in jieqi:
+    print(JIEQI[x[1]],x[0])
